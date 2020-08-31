@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 81.0.4044 (Windows 10.0.0)" package="" timestamp="2020-08-24T12:37:45" id="0" hostname="DESKTOP-7RDFAO8" tests="9" errors="0" failures="0" time="0.004">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.0 Safari/537.36"/>
+  </properties>
+  <testcase name="ImageDetailsComponent should create" time="0" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageDetailsComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="FilterimagesPipe create an instance" time="0" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe">
+    <skipped/>
+  </testcase>
+  <testcase name="AppComponent should create the app" time="0" classname="Chrome_81_0_4044_(Windows_10_0_0).AppComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="AppComponent should have as title 'pet-book'" time="0" classname="Chrome_81_0_4044_(Windows_10_0_0).AppComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="AppComponent should render title" time="0" classname="Chrome_81_0_4044_(Windows_10_0_0).AppComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="ImageService getImages Cuando se llame el metodo, entonces debe retornar todas (5) las imagenes" time="0.003" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageService getImages"/>
+  <testcase name="ImageService getImage Cuando se envie 7 (no esta dentro de la lista) entonces debe retornar indefinido" time="0.001" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageService getImage"/>
+  <testcase name="ImageService getImage Cuando se envie 3 (esta dentro de la lista) entonces debe retornar este elemento" time="0" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageService getImage"/>
+  <testcase name="ImageGalleryComponent should create" time="0" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent">
+    <skipped/>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

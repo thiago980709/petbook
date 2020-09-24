@@ -1,31 +1,31 @@
 <?xml version="1.0"?>
-<testsuite name="Chrome 81.0.4044 (Windows 10.0.0)" package="" timestamp="2020-09-24T04:18:34" id="0" hostname="DESKTOP-7RDFAO8" tests="23" errors="0" failures="0" time="0.327">
+<testsuite name="Chrome 81.0.4044 (Windows 10.0.0)" package="" timestamp="2020-09-24T04:35:47" id="0" hostname="DESKTOP-7RDFAO8" tests="23" errors="0" failures="0" time="0.433">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.0 Safari/537.36"/>
   </properties>
-  <testcase name="ImageDetailsComponent ngOnInit Debe crear el componente" time="0.064" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageDetailsComponent ngOnInit"/>
-  <testcase name="ImageDetailsComponent ngOnInit Cuando la imagen existe debe retornar el json de la imagen" time="0.011" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageDetailsComponent ngOnInit"/>
-  <testcase name="ImageDetailsComponent fixture Cuando se carga la vista, debe existir un elemento contenedor de imagenes con la clase img" time="0.01" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageDetailsComponent fixture"/>
-  <testcase name="ImageGalleryComponent ngOnInit debe crear el componente" time="0.045" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent ngOnInit"/>
-  <testcase name="ImageGalleryComponent fixture Cuando se carga la vista, debe existir 1 boton para los filtros con el nombre Gato" time="0.028" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent fixture"/>
-  <testcase name="ImageGalleryComponent fixture Cuando se carga la vista, debe existir 1 boton para los filtros con el nombre Perro" time="0.021" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent fixture"/>
-  <testcase name="ImageGalleryComponent fixture Cuando se carga la vista, debe existir un elemento contenedor de imagenes con la clase img" time="0.017" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent fixture"/>
-  <testcase name="ImageGalleryComponent fixture Cuando se carga la vista, debe existir 1 boton para los filtros con el nombre All" time="0.022" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent fixture"/>
-  <testcase name="ImageGalleryComponent Validacion Lista Mascotas Cuando se obtenga la lista cada elemento debe tener su respectiva imagen" time="0.02" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent Validacion Lista Mascotas"/>
-  <testcase name="ImageGalleryComponent Validacion Lista Mascotas Cuando se obtenga la lista se verifica que ningun animal sea diferente de perro o gato" time="0.019" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent Validacion Lista Mascotas"/>
-  <testcase name="ImageGalleryComponent Validacion Lista Mascotas Cuando se obtenga la lista ningun elemento puede tener un atributo null" time="0.019" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent Validacion Lista Mascotas"/>
-  <testcase name="ImageGalleryComponent Validacion Lista Mascotas Cuando se cargue el componente debe cargar la lista completa de mascotas" time="0.018" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent Validacion Lista Mascotas"/>
-  <testcase name="ImageService getImage Cuando se envie 3 (esta dentro de la lista) entonces debe retornar este elemento" time="0.002" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageService getImage"/>
+  <testcase name="ImageService getImages Cuando se llame el metodo, entonces debe retornar todas (5) las imagenes" time="0.003" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageService getImages"/>
+  <testcase name="ImageService getImage Cuando se envie 3 (esta dentro de la lista) entonces debe retornar este elemento" time="0.004" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageService getImage"/>
   <testcase name="ImageService getImage Cuando se envie 7 (no esta dentro de la lista) entonces debe retornar indefinido" time="0.001" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageService getImage"/>
-  <testcase name="ImageService getImages Cuando se llame el metodo, entonces debe retornar todas (5) las imagenes" time="0.002" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageService getImages"/>
-  <testcase name="FilterimagesPipe Escenarios fallidos filtro Cuando se filtra por un animal que no esta en la lista (por ejemplo pato) se debe retornar la lista vacia" time="0" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe Escenarios fallidos filtro"/>
-  <testcase name="FilterimagesPipe Escenarios fallidos filtro Cuando no se especifica el animal por el cual se quiere filtrar se debe retornar la lista vacia" time="0.001" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe Escenarios fallidos filtro"/>
-  <testcase name="FilterimagesPipe ngOnInit create an instance" time="0" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe ngOnInit"/>
-  <testcase name="FilterimagesPipe Escenarios exitosos filtro Cuando se filtra por all se debe devolver la lista completa" time="0.001" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe Escenarios exitosos filtro"/>
+  <testcase name="AppComponent La aplicacion debe ser creada correctamente" time="0.067" classname="Chrome_81_0_4044_(Windows_10_0_0).AppComponent"/>
+  <testcase name="AppComponent La aplicacion debe tener el titulo 'pet-book'" time="0.014" classname="Chrome_81_0_4044_(Windows_10_0_0).AppComponent"/>
+  <testcase name="ImageDetailsComponent fixture Cuando se carga la vista, debe existir un elemento contenedor de imagenes con la clase img" time="0.03" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageDetailsComponent fixture"/>
+  <testcase name="ImageDetailsComponent ngOnInit Debe crear el componente" time="0.015" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageDetailsComponent ngOnInit"/>
+  <testcase name="ImageDetailsComponent ngOnInit Cuando la imagen existe debe retornar el json de la imagen" time="0.021" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageDetailsComponent ngOnInit"/>
+  <testcase name="ImageGalleryComponent fixture Cuando se carga la vista, debe existir 1 boton para los filtros con el nombre Gato" time="0.05" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent fixture"/>
+  <testcase name="ImageGalleryComponent fixture Cuando se carga la vista, debe existir 1 boton para los filtros con el nombre All" time="0.052" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent fixture"/>
+  <testcase name="ImageGalleryComponent fixture Cuando se carga la vista, debe existir un elemento contenedor de imagenes con la clase img" time="0.039" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent fixture"/>
+  <testcase name="ImageGalleryComponent fixture Cuando se carga la vista, debe existir 1 boton para los filtros con el nombre Perro" time="0.02" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent fixture"/>
+  <testcase name="ImageGalleryComponent ngOnInit debe crear el componente" time="0.021" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent ngOnInit"/>
+  <testcase name="ImageGalleryComponent Validacion Lista Mascotas Cuando se obtenga la lista cada elemento debe tener su respectiva imagen" time="0.022" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent Validacion Lista Mascotas"/>
+  <testcase name="ImageGalleryComponent Validacion Lista Mascotas Cuando se obtenga la lista se verifica que ningun animal sea diferente de perro o gato" time="0.022" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent Validacion Lista Mascotas"/>
+  <testcase name="ImageGalleryComponent Validacion Lista Mascotas Cuando se cargue el componente debe cargar la lista completa de mascotas" time="0.021" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent Validacion Lista Mascotas"/>
+  <testcase name="ImageGalleryComponent Validacion Lista Mascotas Cuando se obtenga la lista ningun elemento puede tener un atributo null" time="0.023" classname="Chrome_81_0_4044_(Windows_10_0_0).ImageGalleryComponent Validacion Lista Mascotas"/>
+  <testcase name="FilterimagesPipe Escenarios exitosos filtro Cuando se filtra por all se debe devolver la lista completa" time="0.002" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe Escenarios exitosos filtro"/>
+  <testcase name="FilterimagesPipe Escenarios exitosos filtro Cuando se filtra por gato se deben eliminar los elementos de la lista que tenga el atributo brand=perro" time="0" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe Escenarios exitosos filtro"/>
   <testcase name="FilterimagesPipe Escenarios exitosos filtro Cuando se filtra por perro se deben eliminar los elementos de la lista que tenga el atributo brand=gato" time="0.001" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe Escenarios exitosos filtro"/>
-  <testcase name="FilterimagesPipe Escenarios exitosos filtro Cuando se filtra por gato se deben eliminar los elementos de la lista que tenga el atributo brand=perro" time="0.001" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe Escenarios exitosos filtro"/>
-  <testcase name="AppComponent La aplicacion debe tener el titulo 'pet-book'" time="0.013" classname="Chrome_81_0_4044_(Windows_10_0_0).AppComponent"/>
-  <testcase name="AppComponent La aplicacion debe ser creada correctamente" time="0.011" classname="Chrome_81_0_4044_(Windows_10_0_0).AppComponent"/>
+  <testcase name="FilterimagesPipe Escenarios fallidos filtro Cuando se filtra por un animal que no esta en la lista (por ejemplo pato) se debe retornar la lista vacia" time="0.003" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe Escenarios fallidos filtro"/>
+  <testcase name="FilterimagesPipe Escenarios fallidos filtro Cuando no se especifica el animal por el cual se quiere filtrar se debe retornar la lista vacia" time="0.001" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe Escenarios fallidos filtro"/>
+  <testcase name="FilterimagesPipe ngOnInit create an instance" time="0.001" classname="Chrome_81_0_4044_(Windows_10_0_0).FilterimagesPipe ngOnInit"/>
   <system-out>
     <![CDATA[Chrome 81.0.4044 (Windows 10.0.0) WARN: 'Can't bind to 'routerLink' since it isn't a known property of 'a'.'
 ,Chrome 81.0.4044 (Windows 10.0.0) WARN: 'Can't bind to 'routerLink' since it isn't a known property of 'a'.'

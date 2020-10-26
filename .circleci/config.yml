@@ -64,14 +64,14 @@ jobs:
       - aws-cli/setup
       - run:
           name: Deploy artifact to AWS
-          command: aws s3 cp pet-book/pet-book.zip s3://pet-book-deploy-circleci
+          command: aws s3 cp pet-book/pet-book.zip s3://petbook-amazon
 
 workflows:
   default:
     jobs:
       - unit_test
       - static_code_scan:
-          context: sonarCloud
+          context: sonarcloud
           requires:
             - unit_test
       - build:
@@ -81,6 +81,6 @@ workflows:
           requires:
             - build
       - deploy:
-          context: Amazon S3
+          context: amazonS3
           requires:
             - zip

@@ -23,7 +23,7 @@
       <ul>    
         <li *ngFor="let img of (allImages | filterimages:filterBy)">    
           <a [routerLink]="['/image', img.id]">    
-            <img src="{{img.url}}" class="img" width="240" height="170">    
+            <img alt="Pet" src="{{img.url}}" class="img" width="240" height="170">    
           </a>    
         </li>    
       </ul>    

@@ -19,7 +19,7 @@ jobs:
       - persist_to_workspace:
           root: ~/project
           paths: . 
-  static_code_scan:
+  static_code_scan: scan sonarcloud
     executor: node/default
     steps:
       - attach_workspace:

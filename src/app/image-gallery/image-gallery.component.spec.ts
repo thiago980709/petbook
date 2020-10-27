@@ -74,19 +74,19 @@ describe('ImageGalleryComponent', () => {
   });
 
   describe('fixture', () => {
-    it('Cuando se carga la vista, debe existir un elemento contenedor de imagenes con la clase img', () => {
+    it('Cuando se carga la vista de las mascotas, debe existir un elemento contenedor de imagenes con la clase img', () => {
       expect(fixture.nativeElement.querySelector('.img')).toBeDefined();
     });
 
-    it('Cuando se carga la vista, debe existir 1 boton para los filtros con el nombre All', () => {
+    it('Cuando se carga la vista de las mascotas, debe existir 1 boton para los filtros con el nombre All', () => {
       expect(fixture.nativeElement.querySelector('#btnAll').textContent.trim()).toBe("All");
     });
 
-    it('Cuando se carga la vista, debe existir 1 boton para los filtros con el nombre Perro', () => {
+    it('Cuando se carga la vista la vista de las mascotas, debe existir 1 boton para los filtros con el nombre Perro', () => {
       expect(fixture.nativeElement.querySelector('#btnPerro').textContent.trim()).toBe("Perro");
     });
 
-    it('Cuando se carga la vista, debe existir 1 boton para los filtros con el nombre Gato', () => {
+    it('Cuando se carga la vista la vista de las mascotas, debe existir 1 boton para los filtros con el nombre Gato', () => {
       expect(fixture.nativeElement.querySelector('#btnGato').textContent.trim()).toBe("Gato");
     });
   });

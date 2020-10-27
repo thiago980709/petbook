@@ -44,7 +44,6 @@ describe('ImageDetailsComponent', () => {
       expect(component).toBeTruthy();
     });
   })
-  
   describe('fixture', () => {
     it('Cuando se carga la vista, debe existir un elemento contenedor de imagenes con la clase img', () => {
       expect(fixture.nativeElement.querySelector('.img-container')).toBeDefined();
